@@ -1,26 +1,3 @@
 # Jae123-20.github.io
 
-<html>
-<head>
-<meta charset = "utf-8"/>
-</head>
-<body>
 
-<script>
-
-
-
-var currentDate = new Date();
-var month = currentDate.getMonth();
-var day = currentDate.getDate();
-var year = currentDate.getFullYear();
-var fullDate = month + "/" + day + "/" + year;
-document.write(fullDate);
-
-</script>
-
-
-
-
-</body>
-</html>
