@@ -7,5 +7,12 @@
   <body style="background-color:#fdcb6e">
     <h1 style="color:#2d3436">My Awesome Website</h1>
       <p style="color:#2d3436">Check out my awesome website</p>
+    
+var currentDate = new Date();
+var month = currentDate.getMonth();
+var day = currentDate.getDate();
+var year = currentDate.getFullYear();
+var fullDate = month + "/" + day + "/" + year;
+document.write(fullDate);
   </body>
 </html>
